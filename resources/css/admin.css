@@ -1,0 +1,61 @@
+/* AdminLTE 4 + Bootstrap 5 */
+@import "admin-lte/dist/css/adminlte.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.min.css";
+@import "@fontsource/plus-jakarta-sans/400.css";
+@import "@fontsource/plus-jakarta-sans/600.css";
+@import "@fontsource/plus-jakarta-sans/700.css";
+
+:root {
+    --ct-primary: #0F2C59;
+    --ct-accent: #FF6B35;
+    --ct-font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    font-family: var(--ct-font-family);
+    -webkit-font-smoothing: antialiased;
+}
+
+.main-header.navbar {
+    background-color: var(--ct-primary) !important;
+}
+
+.nav-sidebar .nav-link.active {
+    background-color: rgba(255, 107, 53, 0.15) !important;
+    color: var(--ct-accent) !important;
+}
+
+.content-header h1 {
+    color: var(--ct-primary);
+    font-weight: 700;
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(15, 44, 89, 0.05);
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    font-weight: 600;
+    color: var(--ct-primary);
+}
+
+.table thead th {
+    font-weight: 600;
+    color: #64748b;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-top: none;
+    background-color: #f8fafc;
+}
+
+.badge-pending  { background-color: #FEF3C7; color: #92400E; }
+.badge-shipping { background-color: #E0F2FE; color: #0369A1; }
+.badge-completed { background-color: #D1FAE5; color: #065F46; }
+.badge-cancelled { background-color: #FEE2E2; color: #991B1B; }
+.badge-paid     { background-color: #D1FAE5; color: #065F46; }
+.badge-failed   { background-color: #FEE2E2; color: #991B1B; }
